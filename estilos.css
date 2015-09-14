@@ -38,117 +38,46 @@ section {
 	padding: 0px;
 }
 
-/**************************
-        BODY
-**************************/
-body{
-	font-family: Calibri,sans-serif;
+.navi
+{
+	color: #999999;
+	float:left;
+    margin-top: 20px;
+    padding-left:25px ;
+    -webkit-transition-property:color, text;
+    -webkit-transition-duration: .05s, 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-property:color, text;
+    -moz-transition-duration:0.5s;
+    -moz-transition-timing-function: ease;
+    -o-transition-property:color, text;
+    -o-transition-duration:0.5s;
+    -o-transition-timing-function: ease;
+
 }
-.background-wrap{
-	position: fixed;
-	z-index: -1000;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	top:0;
-	left: 0;
+.navi:hover{
+	color:#cc9933;
+
 }
 
-#video-bg-element{
-	position: absolute;	
-	top: 0;
-	left: 0;
-	min-hegiht:100%;
-	min-width: 100%;
-}
-.content{
-	
-	width: 100%;
-	min-height: 100%;
-	margin-top: -20px;
-	z-index: 1000;
-	padding-bottom: 400px;
-	background-color: rgba(0,0,0,0.2);
-}
-.content h1{
-	text-align: center;
-	font-size: 65px;
-	text-transform: uppercase;
-	font-weight: 300;
-	color:#fff;
-	padding-top:15%;
-	margin-bottom:10px; 
-}
-.content p{
-	text-align: center;
-	font-size: 20px;
-	letter-spacing: 3px;
-	color: #aaa;
-}
-/**************************
-        IMAGENES
-**************************/
-section{
-	
+#imagenLogo 
+{
+	margin-top: 8px;
+	margin-left: -13px;
+	padding-left: 0;
+	width: 25px;
+    overflow: hidden;
 	position: absolute;
-	min-width: 100%;
-	min-height: 100%;
+	background-color: transparent;
+	
 }
-img {
-  max-width: 100%;
-}
-#gallery {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-#gallery li {
-  float: left;
-  width: 100%;
-  margin: 0;
-  color: #bdc3c7;
-}
-/**************************
-        JQUERYS
-**************************/
-@media screen and (max-width: 800px){
-	header nav {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		left:-100%;
-		margin: 0;
-		position: fixed;
-		background: #C5A24B;
-	}	
-	header nav ul li{
-		display: block;
-		float: none;
-		border-bottom:1px solid rgba(255,255,255, .3);
-	}
-	.menu_bar{
-		display: inline-block;
-		width: 100%;
-		background: #ccc;
-	}
+#imagenLogo:hover{
+	color: #cc9933;
 
-	.menu_bar .bt-menu{
-		display: block;
-		padding: 20px;
-		background: #C5A24B;
-		color: #fff;
-		text-decoration: none;
-		font-weight: bold;
-		font-size: 25px;
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		box-sizing: border-box;
-	}
-	.menu_bar span{
-		float: right;
-		font-size: 30px;
-	}
 }
+
+
+
 
 
 
