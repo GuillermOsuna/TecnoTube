@@ -23,6 +23,7 @@ header nav ul{
 }
 header nav ul li{
 	float: right;
+	margin-top: 15px;
 }
 
 header nav ul li a{
@@ -43,9 +44,10 @@ body{
 
 .navi
 {
+	font-size: 20px;
 	color: #999999;
 	float:left;
-    margin-top: 20px;
+    margin-top: 30px;
     padding-left:25px ;
     -webkit-transition-property:color, text;
     -webkit-transition-duration: .05s, 0.5s;
@@ -65,12 +67,11 @@ body{
 
 #imagenLogo 
 {
-	margin-top: 5px;
+	margin-top: 15px;
 	margin-left: -9px;
 	padding-left: 0;
-	width: 27px;
+	width: 32px;
     overflow: hidden;
-	position: absolute;
 	background-color: transparent;
 	
 }
