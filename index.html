@@ -29,23 +29,24 @@
 		        <span style="transition-delay: 0.18s;">E</span>  
 
 		    </div>  
-
+		    
 			  <img id="imagenLogo" class ="navi" src="logobrown.png"  style="transition-delay: 0.23s;"alt="">
+			
 			<ul>
+				
 				<li><a>Contacto</a></li>
 				<li><a>Historia</a></li>
-				
+					
 				
 			</ul>
 		</nav>
 	</header>
 
-		<div class="background-wrap">
+		<div class="background-wrap" >
 			<video id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="muted">
 				<source src="background.mp4" type="video/mp4">
 					video not supported
 			</video>
-
 
 		</div>
 
@@ -66,62 +67,69 @@
 	</section>
 
 	<section>
-        <ul id="gallery">
+		<div id="gallery">
+        <ul>
           <li>
             <a href="img/numbers-01.jpg">
               <img src="img/Tubos.jpg" alt="">
-
+              <p>TEXTO OKJANSOJBASDICJBAISF</p>
             </a>
           </li>
           <li>
             <a href="img/numbers-02.jpg">
               <img src="img/Tubos.jpg" alt="">
-            
+               <p>TEXTO OKJANSOJBASDICJBAISF</p>
             </a>
           </li>
+           <li>
+            <a href="img/numbers-02.jpg">
+              <img src="img/Tubos.jpg" alt="">
+              <p>TEXTO OKJANSOJBASDICJBAISF</p>
+            </a>
+          </li>
+           <li>
+            <a href="img/numbers-02.jpg">
+              <img src="img/Tubos.jpg" alt="">
+              <p>TEXTO OKJANSOJBASDICJBAISF</p>
+            </a>
+          </li>
+
           
         </ul>
+    </div>
       </section>
-
-		<section>
-			<ul id="gallery">
-          <li>
-            <a href="img/numbers-01.jpg">
-              <img src="img/Tubos.jpg" alt="">
-
-            </a>
-          </li>
-          <li>
-            <a href="img/numbers-02.jpg">
-              <img src="img/Tubos.jpg" alt="">
-            
-            </a>
-          </li>
-        </ul>
-			
-		</section>
 
 
 
 
 
 		<footer>
-		
-		<a href="http://twitter.com"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
-        <a href="http://facebook.com"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
         <p>
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, reprehenderit vero provident optio maxime ducimus ab veritatis, quia repellendus amet adipisci nam magni veniam deserunt, iusto numquam neque labore nihil.
 		</p><p>
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, reprehenderit vero provident optio maxime ducimus ab veritatis, quia repellendus amet adipisci nam magni veniam deserunt, iusto numquam neque labore nihil./N</p>
         <p>&copy; 2015 TecnoTube</p>
+
 	</footer>
 
 	
 
 
-
+	
 	<script src="js/jquery.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
 	<script src="js/menu.js"></script>
+	
+	<script type="text/javascript">
+		$(function(){
+			$(window).stellar();
+			$('.wrapper').css({
+				'height': screen.availheight + 'px'
+			});
+		});
+	</script>
+
+
 </body>
 </html>
 

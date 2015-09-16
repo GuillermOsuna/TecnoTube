@@ -79,6 +79,9 @@ body{
 
 }
 
+.parallax{
+	
+}
 /**************************
         BODY
 **************************/
@@ -86,6 +89,7 @@ body{
 	font-family: Calibri,sans-serif;
 }
 .background-wrap{
+
 	position: fixed;
 	z-index: -1000;
 	width: 100%;
@@ -97,6 +101,7 @@ body{
 
 #video-bg-element{
 	position: absolute;	
+	float: left;
 	top: 0;
 	left: 0;
 	min-hegiht:100%;
@@ -132,6 +137,8 @@ body{
 	padding-top:80px;
 	margin-bottom:-170px; 
 }
+
+
 /**************************
         PRESENTACION
 **************************/
@@ -145,35 +152,54 @@ body{
 #presentacion p {
 
 }
+
+
 /**************************
         IMAGENES
 **************************/
 
-#gallery {
-	
-	float: left;
-	width: 100%;
-	list-style: none;
-	display: flex;
+img {
+  max-width: 100%;
 }
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  
+}
+
 #gallery li {
+  list-style: none;
+  float: left;
+  width: 50%;
+  margin-top:-3px;
+  
+  color: #bdc3c7;
+}
+#gallery ul li a p{
+	position: absolute;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Open sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: 200;
+	color:#fff;
+	margin-left: 15%;
+	margin-top: -20%; 
 
 }
-#gallery img{
-	width: 100%;
-	height: 200%;
-}
+
 /**************************
         FOOTER
 **************************/
-footer {
+/*footer {
 	float: left;
 	margin-top: 100%;
 	background: #C5A25D;
 	width: 100%;
 	height: 400px;
+}*/
 
-}
 /**************************
         JQUERYS
 **************************/
