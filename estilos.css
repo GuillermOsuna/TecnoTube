@@ -165,15 +165,13 @@ img {
 #gallery {
   margin: 0;
   padding: 0;
-  
 }
 
 #gallery li {
   list-style: none;
   float: left;
   width: 50%;
-  margin-top:-3px;
-  
+  margin-top:-4px;
   color: #bdc3c7;
 }
 #gallery ul li a p{
@@ -242,6 +240,14 @@ img {
 	.menu_bar span{
 		float: right;
 		font-size: 30px;
+	}
+
+	img {
+		width: 800px;
+}
+
+	#gallery li{
+		width: 100%;
 	}
 }
 
