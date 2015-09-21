@@ -1,0 +1,29 @@
+
+
+
+
+/*****************NAV*****************/
+
+
+#navi
+{
+	font-size: 20px;
+	color: #999999;
+	float:left;
+    margin-top: 30px;
+    padding-left:25px ;
+    -webkit-transition-property:color, text;
+    -webkit-transition-duration: .05s, 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-property:color, text;
+    -moz-transition-duration:0.5s;
+    -moz-transition-timing-function: ease;
+    -o-transition-property:color, text;
+    -o-transition-duration:0.5s;
+    -o-transition-timing-function: ease;
+} 
+.navi:hover{
+	color:#996633;
+
+}
+
